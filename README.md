@@ -11,9 +11,6 @@
 
 Arch / CachyOS:
 
-```bash
-yay -S youdown
-```
 
 Или из исходников:
 

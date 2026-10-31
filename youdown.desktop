@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Name=YouDown
+GenericName=YouTube Downloader
+Comment=Material You загрузчик видео и музыки с YouTube
+Comment[en]=Material You YouTube video and music downloader
+Exec=youdown %u
+TryExec=youdown
+Icon=youdown
+Terminal=false
+Categories=AudioVideo;Network;Utility;
+Keywords=YouTube;Downloader;yt-dlp;Material;YouDown;
+StartupWMClass=youdown
+StartupNotify=true

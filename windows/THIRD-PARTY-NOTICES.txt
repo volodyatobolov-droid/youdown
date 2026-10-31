@@ -1,0 +1,18 @@
+YouDown bundles the following third-party programs:
+
+yt-dlp
+  https://github.com/yt-dlp/yt-dlp
+  License: Unlicense (public domain)
+
+FFmpeg (GPL build by BtbN)
+  https://ffmpeg.org/
+  https://github.com/BtbN/FFmpeg-Builds
+  License: GNU General Public License v3 or later.
+  The full license text is included in FFmpeg-LICENSE.txt.
+  Corresponding source: https://github.com/BtbN/FFmpeg-Builds
+
+Roboto font
+  https://fonts.google.com/specimen/Roboto
+  License: Apache License 2.0
+
+YouDown itself is distributed under the MIT license.

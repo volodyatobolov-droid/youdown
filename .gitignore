@@ -1,0 +1,5 @@
+/target
+/dist
+*.log
+/windows/deps/
+/windows/stage/

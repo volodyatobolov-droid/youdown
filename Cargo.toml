@@ -1,0 +1,22 @@
+[package]
+name = "youdown"
+version = "1.0.0"
+edition = "2021"
+description = "YouTube downloader with Material You UI"
+license = "MIT"
+
+[dependencies]
+eframe = { version = "0.32", default-features = false, features = ["glow", "wayland", "x11", "default_fonts"] }
+egui = "0.32"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+image = { version = "0.25", default-features = false, features = ["png", "jpeg", "webp"] }
+ureq = { version = "2.12", default-features = true }
+dirs = "6"
+
+[profile.release]
+opt-level = 3
+lto = "thin"
+strip = true
+codegen-units = 1
+panic = "abort"

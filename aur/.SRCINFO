@@ -1,0 +1,16 @@
+pkgbase = youdown
+	pkgdesc = YouTube downloader with Material You UI
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = https://github.com/volodyatobolov-droid/youdown
+	arch = x86_64
+	license = MIT
+	makedepends = cargo
+	depends = yt-dlp
+	depends = ffmpeg
+	optdepends = zenity: folder picker
+	optdepends = wl-clipboard: paste from clipboard
+	source = youdown-1.0.0.tar.gz::https://github.com/volodyatobolov-droid/youdown/archive/refs/tags/v1.0.0.tar.gz
+	sha256sums = SKIP
+
+pkgname = youdown

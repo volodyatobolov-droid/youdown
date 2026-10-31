@@ -9,7 +9,7 @@ depends=('yt-dlp' 'ffmpeg')
 makedepends=('cargo')
 optdepends=('zenity: folder picker' 'wl-clipboard: paste from clipboard')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/refs/tags/v$pkgver.tar.gz")
-sha256sums=('SKIP')
+sha256sums=('75ce3cdf4f1dbe9994ba1fc8c494c86754d2470e42e3e6bcb1eafa55835de83b')
 
 prepare() {
     cd "$pkgname-$pkgver"

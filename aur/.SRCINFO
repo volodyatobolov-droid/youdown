@@ -11,6 +11,6 @@ pkgbase = youdown
 	optdepends = zenity: folder picker
 	optdepends = wl-clipboard: paste from clipboard
 	source = youdown-1.0.0.tar.gz::https://github.com/volodyatobolov-droid/youdown/archive/refs/tags/v1.0.0.tar.gz
-	sha256sums = SKIP
+	sha256sums = 75ce3cdf4f1dbe9994ba1fc8c494c86754d2470e42e3e6bcb1eafa55835de83b
 
 pkgname = youdown

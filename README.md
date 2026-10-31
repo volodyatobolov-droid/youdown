@@ -9,10 +9,7 @@
 
 ## Установка
 
-Arch / CachyOS:
-
-
-Или из исходников:
+Из исходников:
 
 ```bash
 cargo build --release
